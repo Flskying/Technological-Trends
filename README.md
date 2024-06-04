@@ -1,5 +1,4 @@
-# Technological-Trends
-# 科技潮流
+# Technological-Trends——科技潮流
 # 包含页面
 - 主页
 - 热点
