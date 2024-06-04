@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Navigation Example</title>
+    <style>
+        /* 样式可以根据需要进行修改 */
+        #navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #navbar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #navbar ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        #navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+            cursor: pointer; /* 添加鼠标指针 */
+        }
+
+        #content {
+            margin-top: 20px; /* 保留空白区域给导航栏 */
+        }
+
+        /* 隐藏不需要显示的页面 */
+        .page {
+            display: none;
+        }
+
+        /* 显示当前页面 */
+        .current {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <div id="navbar">
+        <ul>
+            <li><a onclick="showPage('home')">Home</a></li>
+            <li><a onclick="showPage('about')">About</a></li>
+            <li><a onclick="showPage('services')">Services</a></li>
+            <li><a onclick="showPage('contact')">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- 内容区域 -->
+    <div id="content">
+        <!-- Home 页面 -->
+        <div id="home" class="page current">
+            <h2>Home Page</h2>
+            <p>This is the home page content.</p>
+        </div>
+
+        <!-- About 页面 -->
+        <div id="about" class="page">
+            <h2>About Page</h2>
+            <p>This is the about page content.</p>
+        </div>
+
+        <!-- Services 页面 -->
+        <div id="services" class="page">
+            <h2>Services Page</h2>
+            <p>This is the services page content.</p>
+        </div>
+
+        <!-- Contact 页面 -->
+        <div id="contact" class="page">
+            <h2>Contact Page</h2>
+            <p>This is the contact page content.</p>
+        </div>
+    </div>
+
+    <script>
+        function showPage(pageId) {
+            // 隐藏所有页面
+            var pages = document.querySelectorAll('.page');
+            pages.forEach(function(page) {
+                page.classList.remove('current');
+            });
+
+            // 显示当前页面
+            var currentPage = document.getElementById(pageId);
+            currentPage.classList.add('current');
+        }
+    </script>
+</body>
+</html>

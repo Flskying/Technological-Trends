@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Example</title>
+    <link rel="stylesheet" href="styles.css">
+	<style type="text/css">
+		
+		body {
+		    font-family: Arial, sans-serif;
+		    margin: 0;
+		    padding: 0;
+			z-index:999;
+		}
+		
+		footer {
+		    background: #333;
+		    color: #fff;
+		    padding: 20px 0;
+		    text-align: center;
+		}
+		
+		.footer-container {
+		    display: flex;
+		    justify-content: space-around;
+		    max-width: 1200px;
+		    margin: 0 auto;
+		    flex-wrap: wrap;
+		}
+		
+		.footer-section {
+		    flex: 1;
+		    padding: 10px;
+		    min-width: 200px;
+		}
+		
+		.footer-section h2 {
+		    margin-bottom: 15px;
+		    font-size: 18px;
+		}
+		
+		.footer-section p, .footer-section ul, .footer-section a {
+		    font-size: 14px;
+		    line-height: 1.5;
+		}
+		
+		.footer-section ul {
+		    list-style: none;
+		    padding: 0;
+		}
+		
+		.footer-section ul li {
+		    margin-bottom: 10px;
+		}
+		
+		.footer-section ul li a {
+		    color: #fff;
+		    text-decoration: none;
+		    transition: color 0.3s;
+		}
+		
+		.footer-section ul li a:hover {
+		    color: #ffa500;
+		}
+		
+		.footer-section a img {
+		    width: 24px;
+		    margin: 0 10px;
+		    transition: transform 0.3s;
+		}
+		
+		.footer-section a img:hover {
+		    transform: scale(1.1);
+		}
+		
+		.footer-bottom {
+		    margin-top: 20px;
+		    font-size: 12px;
+		    border-top: 1px solid #444;
+		    padding-top: 10px;
+		}
+		
+		
+	</style>
+</head>
+<body>
+    <!-- Your page content here -->
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h2>关于我们</h2>
+                <p>我们是一家致力于为客户提供最佳服务的公司。我们的使命是为市场带来价值和创新。</p>
+            </div>
+            <div class="footer-section links">
+                <h2>快速链接</h2>
+                <ul>
+                    <li><a href="#">主页</a></li>
+                    <li><a href="#">服务</a></li>
+                    <li><a href="#">关于</a></li>
+                    <li><a href="#">联系</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h2>联系我们</h2>
+                <a href="#"><img src="path/to/facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="path/to/twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="path/to/instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 科技潮流. 版权所有. | Designed by ZhaoSir
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,122 @@
+/* 		<style type="text/css">
+			body{
+				padding: 0%;
+				width:100%;
+				height:100%;
+				background-color: white;
+			}
+			#phone_box{
+				display:flex;
+				flex-direction: column;
+				justify-content: space-between;
+				position: relative;
+				overflow-x: hidden;
+			}
+			#phone_text{
+				background-color: rgb(234, 236, 238);
+				width: 100%;
+				height: 100%;
+			}
+			#phone_text_01{
+				background-image: url('../img/huawei3.png');
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+				width: 100%;
+				height: 700PX;
+				display:flex;
+				margin-left: 8%;
+				
+			}
+			#phone_title_01{
+				margin-top: 30%;
+				margin-left: 60%;
+				text-align: center;
+			}
+			#phone_img_01{
+				display:flex;
+				width: 20%;
+				height:20%;
+			}
+			#phone_text_02{
+				display:flex;
+				padding-left: 4%;
+				margin-top: 2%;
+				margin-bottom: 2%;
+				flex-direction: column;
+			}
+			#phone_biaoti{
+				display:flex;
+				margin-left: 5%;
+			}
+			#phone_box_02{
+				display:flex;
+				flex-direction: column;
+				width: 100%;
+				height: 100%;
+			}
+			#phone_xiaomiimg_01{
+				display: flex;
+				width: 5%;
+				height: 5%;
+				margin-left: 7%;
+				margin-right: 7%;
+				margin-bottom: 0%;
+			}
+			#phone_xiaomiimg_02{
+				padding-left: 7%;
+				width: 67%;
+				height: 70%;
+				display: flex;
+				flex-direction: row;
+				margin-top: 0%;
+			}
+			#phone_xiaomiimg_01_1{
+				width: 2000px;
+				height: 582px;
+				padding: 20px;
+			}
+			#phone_text_03{
+				display: flex;
+				flex-direction: column;
+				text-align: center;
+			}
+			#phone_text_03_1{
+				font-size:450%;
+				color: #363839   ;
+			}
+			#phone_text_03_2{
+				font-size:120%;
+				color: #AEB6BF ;
+			}
+			#phone_text_03_21{
+				color: #363839  ;
+			}
+			#phone_img_02{
+				display:flex;
+				width: 60%;
+				height:60%;
+				padding-left: 20% ;
+			}
+			#phone_img_03{
+				display:flex;
+				width: 85%;
+				height: 100%;
+				padding-left: 7%;
+			}
+			#phone_xiaomiimg_02_1{
+				display: flex;
+				flex-direction: column;
+				width: 86%;
+				height: auto;
+				margin-top: 10%;
+			}
+			#phone_img_04{
+				margin: 3%;
+			}
+			#phone_xiaomiimg_02_2{
+				display: flex;
+				margin-bottom:1% ;
+				margin-right: 5%;
+				padding-top: 6%;
+			}
+		</style> */
