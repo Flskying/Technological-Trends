@@ -10,7 +10,8 @@
 - 登录账号
     - 登录
     - 注册 
-[主页](https://gitee.com/hua-liY/technological-trends/blob/master/%E5%B1%95%E7%A4%BA/001.png)
+- [Gitee](https://gitee.com/hua-liY/technological-trends)
+- [Github](https://github.com/Flskying/Technological-Trends?tab=readme-ov-file)
 # 使用说明
 - 使用HbuiderX导入
 - 运行home.html
